@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4e28ca4fe7d8444d81a82669207467b0" Name="Diagram1">
+        <EntityTypeShape EntityType="CamHN2Model.Category" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CamHN2Model.CusAddDetail" Width="1.5" PointX="5.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CamHN2Model.Customer" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CamHN2Model.Order" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CamHN2Model.OrderDetail" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CamHN2Model.ProDetail" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CamHN2Model.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CamHN2Model.Supplier" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CamHN2Model.User" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="CamHN2Model.FK_Pro_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="CamHN2Model.FK__CusAddDet__Phone__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="CamHN2Model.FK__Order__CusPhone__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="CamHN2Model.FK__OrderDeta__Order__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="CamHN2Model.FK__OrderDeta__ProSu__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="CamHN2Model.FK__ProDetail__ProID__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="CamHN2Model.FK__ProDetail__SupID__2E1BDC42" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
